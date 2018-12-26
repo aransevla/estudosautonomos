@@ -216,7 +216,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f7bcf8dc97b90f34baae622ec3fde533, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.7921569}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -233,7 +233,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 60265485}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -12.229727, y: 5.4266, z: -336.64062}
+  m_LocalPosition: {x: -12.229727, y: 5.4266, z: 0}
   m_LocalScale: {x: 3.1886382, y: 2.5014744, z: 1.3183}
   m_Children: []
   m_Father: {fileID: 453987909}
@@ -630,7 +630,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 453987908}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.1, y: -4.48662, z: 346.36}
+  m_LocalPosition: {x: 7.1, y: -4.48662, z: 29.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 60265487}
@@ -21915,7 +21915,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f7bcf8dc97b90f34baae622ec3fde533, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.7921569}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -21932,7 +21932,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1086165408}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 19.4, y: 5.4266, z: -336.64062}
+  m_LocalPosition: {x: 19.4, y: 5.4266, z: 0}
   m_LocalScale: {x: 3.1818657, y: 2.4961612, z: 1.3155}
   m_Children: []
   m_Father: {fileID: 453987909}
@@ -22287,7 +22287,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f7bcf8dc97b90f34baae622ec3fde533, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.7921569}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -22304,7 +22304,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1765710082}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 50.72, y: 5.4266, z: -336.64062}
+  m_LocalPosition: {x: 50.72, y: 5.4266, z: 0}
   m_LocalScale: {x: 3.1886382, y: 2.5014744, z: 1.3183}
   m_Children: []
   m_Father: {fileID: 453987909}
@@ -22322,6 +22322,7 @@ GameObject:
   - component: {fileID: 1853730119}
   - component: {fileID: 1853730122}
   - component: {fileID: 1853730123}
+  - component: {fileID: 1853730124}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -22423,6 +22424,20 @@ MonoBehaviour:
   lookAheadReturnSpeed: 0.5
   lookAheadMoveThreshold: 0.1
   yMin: -3
+--- !u!114 &1853730124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1853730118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8141cc36f17353c42a17f40c09a02b30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  backgrounds:
+  - {fileID: 453987909}
+  smoothing: 1
 --- !u!1001 &1970686337
 Prefab:
   m_ObjectHideFlags: 0
