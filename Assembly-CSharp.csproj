@@ -59,6 +59,7 @@
      <Compile Include="Assets\Scripts\DestroyWithDelay.cs" />
      <Compile Include="Assets\Scripts\GM.cs" />
      <Compile Include="Assets\Scripts\MainMenuUICtrl.cs" />
+     <Compile Include="Assets\Scripts\MovingPlatformCtrl.cs" />
      <Compile Include="Assets\Scripts\Parallaxing.cs" />
      <Compile Include="Assets\Scripts\PlayerCtrl.cs" />
      <Compile Include="Assets\Scripts\SFXManager.cs" />
