@@ -53,6 +53,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\AudioManager.cs" />
+     <Compile Include="Assets\Scripts\AudioPlayer.cs" />
+     <Compile Include="Assets\Scripts\AudioSFX.cs" />
      <Compile Include="Assets\Scripts\DestroyWithDelay.cs" />
      <Compile Include="Assets\Scripts\GM.cs" />
      <Compile Include="Assets\Scripts\MainMenuUICtrl.cs" />
