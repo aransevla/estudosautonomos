@@ -18,6 +18,7 @@ public class GM : MonoBehaviour {
 		if (instance==null) {
 			instance=this;
 		}
+		
 	}
 	
 
@@ -36,6 +37,7 @@ public class GM : MonoBehaviour {
 				player =obj.GetComponent<PlayerCtrl>();
 			}
 		}
+		DisplayHudData();
 	}
 	void DisplayHudData() {
 		ui.hud.txtCoinCount.text = "x " + data.coinCount;
