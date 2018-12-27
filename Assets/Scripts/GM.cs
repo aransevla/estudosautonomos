@@ -11,20 +11,15 @@ public class GM : MonoBehaviour {
 	public GameObject playerPrefab;
 	PlayerCtrl player;
 	public float timeToRespawn = 2f;
-
-
+	public UI ui;
+	GameData data=new GameData();
 
 	void Awake() {
 		if (instance==null) {
 			instance=this;
 		}
-		else if (instance!=this) {
-			Destroy(gameObject);
-		}
-		DontDestroyOnLoad(gameObject);
-
 	}
-
+	
 
 	// Use this for initialization
 	void Start () {
@@ -32,7 +27,7 @@ public class GM : MonoBehaviour {
 			RespawnPlayer();
 		}
 	}
-
+	
 	// Update is called once per frame
 	void Update () {
 		if (player==null) {
@@ -42,6 +37,13 @@ public class GM : MonoBehaviour {
 			}
 		}
 	}
+	void DisplayHudData() {
+		ui.hud.txtCoinCount.text = "x " + data.coinCount;
+	}
+	public void IncrementCoinCount() {
+		data.coinCount++;
+	}
+
 	public void RespawnPlayer() {
 		Instantiate(playerPrefab, spawnPoint.position, spawnPoint.rotation);
 	}
