@@ -746,7 +746,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4188843392926980, guid: 6e5fcfa4190f9ec41acf5a5e029c201b, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -25.491179
+      value: -25.32
       objectReference: {fileID: 0}
     - target: {fileID: 4188843392926980, guid: 6e5fcfa4190f9ec41acf5a5e029c201b, type: 2}
       propertyPath: m_LocalPosition.y
@@ -22174,6 +22174,7 @@ MonoBehaviour:
   playerPrefab: {fileID: 1644517072653242, guid: 033279d3fdef629489eb8e35ca0b99e4,
     type: 2}
   timeToRespawn: 2
+  maxTime: 60
   ui:
     hud:
       txtCoinCount: {fileID: 2124761718}
@@ -22615,7 +22616,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 916773614}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 733587681}
+        m_MethodName: CloseApp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &916773614
@@ -22661,11 +22673,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4188843392926980, guid: 6e5fcfa4190f9ec41acf5a5e029c201b, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -26.29739
+      value: -26.17
       objectReference: {fileID: 0}
     - target: {fileID: 4188843392926980, guid: 6e5fcfa4190f9ec41acf5a5e029c201b, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 5.763461
+      value: 5.96
       objectReference: {fileID: 0}
     - target: {fileID: 4188843392926980, guid: 6e5fcfa4190f9ec41acf5a5e029c201b, type: 2}
       propertyPath: m_LocalPosition.z
@@ -22924,7 +22936,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4188843392926980, guid: 6e5fcfa4190f9ec41acf5a5e029c201b, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -24.963715
+      value: -24.66
       objectReference: {fileID: 0}
     - target: {fileID: 4188843392926980, guid: 6e5fcfa4190f9ec41acf5a5e029c201b, type: 2}
       propertyPath: m_LocalPosition.y
@@ -23743,7 +23755,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1568793696}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 733587681}
+        m_MethodName: ExitToMainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1568793696
@@ -23854,7 +23877,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1582425426}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 733587681}
+        m_MethodName: RestartLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1582425426
@@ -24348,7 +24382,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1821666472}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 733587681}
+        m_MethodName: RestartLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1821666472
@@ -24588,7 +24633,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1936294302}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 733587681}
+        m_MethodName: CloseApp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1936294302
@@ -24859,7 +24915,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2129667485}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 733587681}
+        m_MethodName: ExitToMainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &2129667485
